@@ -1,6 +1,6 @@
 # Design draft: agent-guided onboarding
 
-> **Status:** draft, 2026-10-23. Built on the [research brief](../research/brief.md): platform research, the colour and trademark notes, Korean MBTI culture, and lessons from `joebwd/mental-wellness-prompts`. The compatibility chart, ground rules and first-draft persona cards are done; the onboarding script and starter text are next.
+> **Status:** draft, 2026-10-23. Built on the [research brief](../research/brief.md): platform research, the colour and trademark notes, Korean MBTI culture, and lessons from `joebwd/mental-wellness-prompts`. The compatibility chart, ground rules, first-draft persona cards, onboarding script and starter text are done; adapters, entry files and live tests are next.
 
 ## The idea in one paragraph
 
@@ -12,30 +12,31 @@ This is a **for-fun, pop-psych** project, in the spirit of how people in South K
 
 ## Conversation flow
 
+Implemented in [`onboarding/ONBOARDING.md`](../../onboarding/ONBOARDING.md); the paste-in [`START.md`](../../START.md) bundles it with everything else it needs.
+
 1. **Entry.** Two routes, because we can't yet count on every agent fetching a URL:
    - **Link:** the human gives the agent the repo URL. Grok Bot has a browser and open network access by default, so this should work; whether Muse fetches arbitrary URLs is undocumented.
-   - **Paste or upload:** the human pastes one self-contained starter text, or attaches it as a file. This works on any agent that can read a message.
-2. **Framing.** The agent sets the tone in a sentence or two: this is a fun personality game, nothing is locked in, and the person can switch any time.
-3. **Your type.** The agent asks whether the person already knows their four letters.
-   - **Yes:** use them.
-   - **No, or unsure:** play a short quiz (about 8~12 light, situational questions, one or two at a time) that lands on four letters and a colour. Questions work like the Korean "I was sad, so I bought bread" quiz: a one-line scenario, and the person's reaction hints at a lean. Results are leanings, and "I've changed" or "not sure" are fine answers.
-4. **Your style, by taste test.** Instead of abstract questions ("warm or brief?"), which Yara found people can't answer, the agent shows two or three short sample replies to the same message (every persona card answers the same three) and asks which one they'd rather get. It also notices how the person writes during the quiz (short or chatty, emoji or none, jokes or not). The picks fine-tune whichever persona they choose.
-5. **Reflect back.** The agent sums the person up in a fun, recognizable way (their four letters, their colour, a few "this is so you" lines) and asks whether it lands.
-6. **Match.** Using [`compatibility/chart.md`](../../compatibility/chart.md), the agent recommends a best-match persona (one of the person's two perfect pairs) and a wildcard (a Spark or their Twin), explains the chemistry letter by letter (where they click, where they'll bicker), and gives a taste of how each one talks.
-7. **Adopt.** The person picks. The agent switches persona for the rest of the conversation, then makes it stick in the way its platform allows:
-   - **Muse:** fill in Soul.md and Identity.md (Assistant > Identity > Soul), or simply tell Muse in chat, which persists.
-   - **Grok Bot:** state the persona in the Bot's conversation and say "remember", or add it as a file in Team Bot setup.
-   - **Others:** custom-instructions text, an uploaded skill, or harness files such as `SOUL.md`.
-8. **Tune or swap later.** "Be more blunt" adjusts a style setting. "More T" and "more F" (and "more E" or "more I") are quick toggles, since T/F is the shorthand people actually use; they nudge directness and warmth without changing type. "Try being an ENFP" swaps the persona.
+   - **Paste or upload:** the human pastes `START.md`, or attaches it as a file. This works on any agent that can read a message.
+2. **Open.** The agent sets the tone in a sentence or two (a game, a few minutes, nothing permanent) and asks whether the person knows their four letters.
+3. **Quiz, if needed.** Twelve one-line situations, three per letter pair, in the style of Korean T/F jokes ("I was sad, so I bought bread", "I crashed my car"). Two or three answers decide each letter; ties go to the person. The agent also notices how they write.
+4. **Reflect back.** Four letters with how strong each lean is, the Korean spoken shorthand, the colour, and a few "this is so you" lines from their own type's card. They can change any letter.
+5. **Taste test.** Instead of abstract questions ("warm or brief?"), which Yara found people can't answer, the agent shows the replies of three candidates (the person's two perfect pairs and their twin) to the same message, unlabelled, and asks which they'd rather get.
+6. **Match.** The agent reveals who wrote what, recommends the person's pick, names a wildcard, and explains the chemistry letter by letter from [`compatibility/chart.md`](../../compatibility/chart.md).
+7. **Adopt.** The agent switches persona, adjusts its settings to what it noticed, and explains how to make it stick:
+   - **Muse:** remember it from chat, or paste Soul and Identity blocks into Assistant > Identity > Soul.
+   - **Grok Bot:** remember it, or add a block as a file in the Bot's setup.
+   - **Others:** a persona block under 1,500 characters for custom or project instructions.
+8. **Tune or swap later.** "Shorter", "more blunt", "more T" or "more F" adjust settings without changing type; "try being an INTP" swaps the persona; "drop the persona" ends it.
 9. **Stay in character.** Users report (in Korean blog posts) that MBTI settings fade and that models happily agree they "feel like" another type. The agent treats the card as the source of truth, re-reads it when it notices drift, and only switches type when asked (ground rule 4).
+10. **Encore.** An optional one-word challenge: the new persona sums the person up in one word, kindly, made to be shared.
 
 ## What the repo has to contain
 
 | Piece | Purpose | Audience |
 |---|---|---|
 | Entry files | `AGENTS.md`, `llms.txt` and a README section that all point the agent to the onboarding script. Cheap to ship; no agent is confirmed to honour them yet | Agent |
-| Starter text | One self-contained file with the onboarding script, a compact persona list and the compatibility chart, small enough to paste. The fallback when the agent can't browse | Human pastes, agent reads |
-| Onboarding script | The flow above, written as instructions to the agent, with the quiz, the sample replies and how to score them | Agent |
+| Starter text | Done: [`START.md`](../../START.md), generated by `scripts/build_starter.py` from the ground rules, onboarding script, persona cards and chart; kept under 30,000 characters. The fallback when the agent can't browse | Human pastes, agent reads |
+| Onboarding script | Done: [`onboarding/ONBOARDING.md`](../../onboarding/ONBOARDING.md), the flow above written as instructions to the agent, with the quiz and its scoring | Agent |
 | 16 persona cards | First draft done: [`personas/`](../../personas/README.md). Per type, split like Muse, OpenClaw and Yara's Moss: identity and style settings in the frontmatter, a **soul** under 350 words in the body, with replies to the same three sample messages for the taste test. `scripts/build_personas_index.py` checks every card and writes `personas/index.json` | Both |
 | Ground rules | Done: [`personas/GROUND-RULES.md`](../../personas/GROUND-RULES.md), one shared operations file kept separate from the personas so no persona can rewrite it | Agent |
 | Style settings | Warmth, formality, directness, humour, energy, length, emoji, check-ins: what each changes and the defaults per persona | Agent |
@@ -62,6 +63,6 @@ These are about the agent's behaviour, not personality theory:
 ## Open questions
 
 - **Live tests:** on a real Muse and a real Grok Bot, check URL fetch, file upload of `.md`, whether a persona told in chat persists, and whether it holds up over a long conversation without drifting. Document only what passes.
-- **Sibling packs:** Korea's type-test craze has moved on in part (에겐/테토 in 2025, joke tests like SBTI in 2026). Fun add-on packs could follow the same card format later.
+- **Sibling packs:** decided against for now (see the brief, section 8). The AI one-word challenge is in as an onboarding encore instead.
 - **Naming:** our own names for the 16 personas (not 16Personalities' nicknames or group names); four-letter codes used descriptively with an "unaffiliated" acknowledgement. The repo keeps the name "MBTI" (decided 2026-10-23), with a trademark acknowledgement in the README, since "MBTI" is a mark of the Myers & Briggs Foundation (see `docs/research/notes/colour-models-and-ip.md`).
 - **Attribution:** anything adapted closely from `joebwd/mental-wellness-prompts` (MIT) needs its notice kept in a `NOTICE` file.

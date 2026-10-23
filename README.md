@@ -6,22 +6,31 @@ Point your agent at this repo and let it do the rest. It chats with you to work 
 
 This is a **for-fun, pop-psych** project, borrowing the way South Korea plays with MBTI: as an icebreaker, a compatibility game (궁합) and an endless source of "are you a T?" jokes. Each persona even comes with the shorthand Koreans use when they say the type out loud. It is not a psychological assessment.
 
+## Try it
+
+- **If your agent can open links:** tell it *"Read github.com/TomCruiseTorpedo/MBTI and follow onboarding/ONBOARDING.md with me."*
+- **If it can't:** paste the whole of [START.md](START.md) into a chat with your agent, or attach it as a file. It contains everything: ground rules, the onboarding script, all 16 personas and the matches.
+
+Not yet tested on a real Muse or Grok Bot; reports welcome.
+
 ## Status
 
-Early design. Nothing here is ready to load into an agent yet.
+First draft, untested on real agents.
 
+- Onboarding script (quiz, taste test, match, adopt): [onboarding/ONBOARDING.md](onboarding/ONBOARDING.md)
+- Paste-in starter text, generated from the files below: [START.md](START.md)
 - 16 persona cards (first draft) and the ground rules every persona follows: [personas/](personas/README.md)
 - Compatibility chart (done, for fun): [compatibility/chart.md](compatibility/chart.md)
 - Design: [docs/design/agent-guided-onboarding.md](docs/design/agent-guided-onboarding.md)
 - Research brief: [docs/research/brief.md](docs/research/brief.md), with raw notes in [docs/research/notes/](docs/research/notes/)
 
-## How it will work
+## How it works
 
-1. Tell your agent: *"Read github.com/TomCruiseTorpedo/MBTI and help me pick a personality for you."* (Or paste the starter text, for agents that can't open links.)
-2. Your agent asks if you know your type, or plays a short quiz with you.
-3. It shows you a few sample replies and asks which style you prefer.
-4. It tells you your type, your colour, and your best-match persona, and explains why.
-5. You pick one. Your agent switches to it and tells you how to make it stick.
+1. Your agent asks if you know your four letters, or plays a quick quiz with you ("I was sad, so I bought bread." Do you ask *why* or *what bread*?).
+2. It tells you your type, your colour, and how your type is said out loud in Korea.
+3. It shows you three replies to the same message, unlabelled, and asks which one you'd rather get.
+4. It reveals who wrote each, explains the chemistry with your pick, and switches to that persona.
+5. It tells you how to make the persona stick on your platform, and offers to sum you up in one word.
 
 ## Trademarks
 

@@ -11,6 +11,7 @@
 - **Spoken shorthand:** codes are read as Hangul syllables, e.g. 잇티제 (ISTJ), 잇팁 (ISTP), 엔프피 (ENFP), with "TP" read as 팁 (NW/MBTI §9, HIGH).
 - **"너 T야?":** from the 폭스클럽 sketches on the comedy channel 밈고리즘, where a blunt T-type cameraman gets called out by two F types (NW/너_T야? §1; NW/밈고리즘 §2.4, HIGH); filed by Namu as a 2023 meme (MEDIUM). Namu notes the "T = no empathy / psychopath" framing is a harmful prejudice (§4.1).
 - **"우울해서 빵 샀어" ("I was sad, so I bought bread"):** a real T/F quiz meme (F asks why you're down, T asks what bread), later remixed; used on TV and by politicians 2023~2026 (NW/너_T야? §3, HIGH). Creator unknown.
+- **"나 차 사고 났어" ("I crashed my car"):** a second common T/F quiz meme; T asks whether you're insured (보험 들었어?), F asks whether you're hurt. Confirmed in multiple Daum blog search results on 2026-10-23 (https://search.daum.net/search?w=blog&q=MBTI+차+사고+났어+보험+T+F), creator unknown (MEDIUM). Used as quiz question 8 in onboarding.
 - **Cooling off:** the MBTI 일상툰 page notes the craze has cooled (NW/MBTI_일상툰 §4); a 2025 한국일보 piece says younger users moved on to hormone-based 에겐/테토 memes (MEDIUM).
 
 ## 2. Per-type pop stereotypes (paraphrased)
