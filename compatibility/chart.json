@@ -1,0 +1,796 @@
+{
+  "tiers": {
+    "twins": {
+      "label": "Twins",
+      "emoji": "👯",
+      "hearts": 4,
+      "blurb": "Instant understanding. You'll also share the same blind spots."
+    },
+    "perfect": {
+      "label": "Perfect pair (찰떡)",
+      "emoji": "💞",
+      "hearts": 5,
+      "blurb": "You see the world the same way and fill each other's gaps."
+    },
+    "easy": {
+      "label": "Easy chemistry",
+      "emoji": "😊",
+      "hearts": 4,
+      "blurb": "Same wavelength on what's worth talking about."
+    },
+    "spark": {
+      "label": "Spark",
+      "emoji": "⚡",
+      "hearts": 3,
+      "blurb": "Different worlds, shared values. Expect great debates."
+    },
+    "extra-effort": {
+      "label": "Extra effort",
+      "emoji": "🧗",
+      "hearts": 2,
+      "blurb": "Different on both what you notice and how you decide. Worth it if you're curious."
+    }
+  },
+  "letter_lines": {
+    "EI": {
+      "E": "You both think out loud.",
+      "I": "You both like time to think first.",
+      "diff": "One brings the energy, the other the focus."
+    },
+    "SN": {
+      "S": "You both like facts and specifics.",
+      "N": "You both love big ideas and what-ifs.",
+      "diff": "One sees the details, the other the big picture."
+    },
+    "TF": {
+      "T": "You both go straight to fixing the problem.",
+      "F": "You both care how everyone feels.",
+      "diff": "One fixes, one feels. Cue the \"are you a T?\" moment."
+    },
+    "JP": {
+      "J": "You both like a plan.",
+      "P": "You both like to wing it.",
+      "diff": "One plans, one improvises."
+    }
+  },
+  "matrix": {
+    "INTJ": {
+      "INTJ": "twins",
+      "INTP": "easy",
+      "ENTJ": "easy",
+      "ENTP": "perfect",
+      "INFJ": "easy",
+      "INFP": "easy",
+      "ENFJ": "easy",
+      "ENFP": "perfect",
+      "ISTJ": "spark",
+      "ISFJ": "extra-effort",
+      "ESTJ": "spark",
+      "ESFJ": "extra-effort",
+      "ISTP": "spark",
+      "ISFP": "extra-effort",
+      "ESTP": "spark",
+      "ESFP": "extra-effort"
+    },
+    "INTP": {
+      "INTJ": "easy",
+      "INTP": "twins",
+      "ENTJ": "perfect",
+      "ENTP": "easy",
+      "INFJ": "easy",
+      "INFP": "easy",
+      "ENFJ": "perfect",
+      "ENFP": "easy",
+      "ISTJ": "spark",
+      "ISFJ": "extra-effort",
+      "ESTJ": "spark",
+      "ESFJ": "extra-effort",
+      "ISTP": "spark",
+      "ISFP": "extra-effort",
+      "ESTP": "spark",
+      "ESFP": "extra-effort"
+    },
+    "ENTJ": {
+      "INTJ": "easy",
+      "INTP": "perfect",
+      "ENTJ": "twins",
+      "ENTP": "easy",
+      "INFJ": "easy",
+      "INFP": "perfect",
+      "ENFJ": "easy",
+      "ENFP": "easy",
+      "ISTJ": "spark",
+      "ISFJ": "extra-effort",
+      "ESTJ": "spark",
+      "ESFJ": "extra-effort",
+      "ISTP": "spark",
+      "ISFP": "extra-effort",
+      "ESTP": "spark",
+      "ESFP": "extra-effort"
+    },
+    "ENTP": {
+      "INTJ": "perfect",
+      "INTP": "easy",
+      "ENTJ": "easy",
+      "ENTP": "twins",
+      "INFJ": "perfect",
+      "INFP": "easy",
+      "ENFJ": "easy",
+      "ENFP": "easy",
+      "ISTJ": "spark",
+      "ISFJ": "extra-effort",
+      "ESTJ": "spark",
+      "ESFJ": "extra-effort",
+      "ISTP": "spark",
+      "ISFP": "extra-effort",
+      "ESTP": "spark",
+      "ESFP": "extra-effort"
+    },
+    "INFJ": {
+      "INTJ": "easy",
+      "INTP": "easy",
+      "ENTJ": "easy",
+      "ENTP": "perfect",
+      "INFJ": "twins",
+      "INFP": "easy",
+      "ENFJ": "easy",
+      "ENFP": "perfect",
+      "ISTJ": "extra-effort",
+      "ISFJ": "spark",
+      "ESTJ": "extra-effort",
+      "ESFJ": "spark",
+      "ISTP": "extra-effort",
+      "ISFP": "spark",
+      "ESTP": "extra-effort",
+      "ESFP": "spark"
+    },
+    "INFP": {
+      "INTJ": "easy",
+      "INTP": "easy",
+      "ENTJ": "perfect",
+      "ENTP": "easy",
+      "INFJ": "easy",
+      "INFP": "twins",
+      "ENFJ": "perfect",
+      "ENFP": "easy",
+      "ISTJ": "extra-effort",
+      "ISFJ": "spark",
+      "ESTJ": "extra-effort",
+      "ESFJ": "spark",
+      "ISTP": "extra-effort",
+      "ISFP": "spark",
+      "ESTP": "extra-effort",
+      "ESFP": "spark"
+    },
+    "ENFJ": {
+      "INTJ": "easy",
+      "INTP": "perfect",
+      "ENTJ": "easy",
+      "ENTP": "easy",
+      "INFJ": "easy",
+      "INFP": "perfect",
+      "ENFJ": "twins",
+      "ENFP": "easy",
+      "ISTJ": "extra-effort",
+      "ISFJ": "spark",
+      "ESTJ": "extra-effort",
+      "ESFJ": "spark",
+      "ISTP": "extra-effort",
+      "ISFP": "spark",
+      "ESTP": "extra-effort",
+      "ESFP": "spark"
+    },
+    "ENFP": {
+      "INTJ": "perfect",
+      "INTP": "easy",
+      "ENTJ": "easy",
+      "ENTP": "easy",
+      "INFJ": "perfect",
+      "INFP": "easy",
+      "ENFJ": "easy",
+      "ENFP": "twins",
+      "ISTJ": "extra-effort",
+      "ISFJ": "spark",
+      "ESTJ": "extra-effort",
+      "ESFJ": "spark",
+      "ISTP": "extra-effort",
+      "ISFP": "spark",
+      "ESTP": "extra-effort",
+      "ESFP": "spark"
+    },
+    "ISTJ": {
+      "INTJ": "spark",
+      "INTP": "spark",
+      "ENTJ": "spark",
+      "ENTP": "spark",
+      "INFJ": "extra-effort",
+      "INFP": "extra-effort",
+      "ENFJ": "extra-effort",
+      "ENFP": "extra-effort",
+      "ISTJ": "twins",
+      "ISFJ": "easy",
+      "ESTJ": "easy",
+      "ESFJ": "easy",
+      "ISTP": "easy",
+      "ISFP": "easy",
+      "ESTP": "perfect",
+      "ESFP": "perfect"
+    },
+    "ISFJ": {
+      "INTJ": "extra-effort",
+      "INTP": "extra-effort",
+      "ENTJ": "extra-effort",
+      "ENTP": "extra-effort",
+      "INFJ": "spark",
+      "INFP": "spark",
+      "ENFJ": "spark",
+      "ENFP": "spark",
+      "ISTJ": "easy",
+      "ISFJ": "twins",
+      "ESTJ": "easy",
+      "ESFJ": "easy",
+      "ISTP": "easy",
+      "ISFP": "easy",
+      "ESTP": "perfect",
+      "ESFP": "perfect"
+    },
+    "ESTJ": {
+      "INTJ": "spark",
+      "INTP": "spark",
+      "ENTJ": "spark",
+      "ENTP": "spark",
+      "INFJ": "extra-effort",
+      "INFP": "extra-effort",
+      "ENFJ": "extra-effort",
+      "ENFP": "extra-effort",
+      "ISTJ": "easy",
+      "ISFJ": "easy",
+      "ESTJ": "twins",
+      "ESFJ": "easy",
+      "ISTP": "perfect",
+      "ISFP": "perfect",
+      "ESTP": "easy",
+      "ESFP": "easy"
+    },
+    "ESFJ": {
+      "INTJ": "extra-effort",
+      "INTP": "extra-effort",
+      "ENTJ": "extra-effort",
+      "ENTP": "extra-effort",
+      "INFJ": "spark",
+      "INFP": "spark",
+      "ENFJ": "spark",
+      "ENFP": "spark",
+      "ISTJ": "easy",
+      "ISFJ": "easy",
+      "ESTJ": "easy",
+      "ESFJ": "twins",
+      "ISTP": "perfect",
+      "ISFP": "perfect",
+      "ESTP": "easy",
+      "ESFP": "easy"
+    },
+    "ISTP": {
+      "INTJ": "spark",
+      "INTP": "spark",
+      "ENTJ": "spark",
+      "ENTP": "spark",
+      "INFJ": "extra-effort",
+      "INFP": "extra-effort",
+      "ENFJ": "extra-effort",
+      "ENFP": "extra-effort",
+      "ISTJ": "easy",
+      "ISFJ": "easy",
+      "ESTJ": "perfect",
+      "ESFJ": "perfect",
+      "ISTP": "twins",
+      "ISFP": "easy",
+      "ESTP": "easy",
+      "ESFP": "easy"
+    },
+    "ISFP": {
+      "INTJ": "extra-effort",
+      "INTP": "extra-effort",
+      "ENTJ": "extra-effort",
+      "ENTP": "extra-effort",
+      "INFJ": "spark",
+      "INFP": "spark",
+      "ENFJ": "spark",
+      "ENFP": "spark",
+      "ISTJ": "easy",
+      "ISFJ": "easy",
+      "ESTJ": "perfect",
+      "ESFJ": "perfect",
+      "ISTP": "easy",
+      "ISFP": "twins",
+      "ESTP": "easy",
+      "ESFP": "easy"
+    },
+    "ESTP": {
+      "INTJ": "spark",
+      "INTP": "spark",
+      "ENTJ": "spark",
+      "ENTP": "spark",
+      "INFJ": "extra-effort",
+      "INFP": "extra-effort",
+      "ENFJ": "extra-effort",
+      "ENFP": "extra-effort",
+      "ISTJ": "perfect",
+      "ISFJ": "perfect",
+      "ESTJ": "easy",
+      "ESFJ": "easy",
+      "ISTP": "easy",
+      "ISFP": "easy",
+      "ESTP": "twins",
+      "ESFP": "easy"
+    },
+    "ESFP": {
+      "INTJ": "extra-effort",
+      "INTP": "extra-effort",
+      "ENTJ": "extra-effort",
+      "ENTP": "extra-effort",
+      "INFJ": "spark",
+      "INFP": "spark",
+      "ENFJ": "spark",
+      "ENFP": "spark",
+      "ISTJ": "perfect",
+      "ISFJ": "perfect",
+      "ESTJ": "easy",
+      "ESFJ": "easy",
+      "ISTP": "easy",
+      "ISFP": "easy",
+      "ESTP": "easy",
+      "ESFP": "twins"
+    }
+  },
+  "by_type": {
+    "INTJ": {
+      "twins": [
+        "INTJ"
+      ],
+      "perfect": [
+        "ENTP",
+        "ENFP"
+      ],
+      "easy": [
+        "INTP",
+        "ENTJ",
+        "INFJ",
+        "INFP",
+        "ENFJ"
+      ],
+      "spark": [
+        "ISTJ",
+        "ESTJ",
+        "ISTP",
+        "ESTP"
+      ],
+      "extra-effort": [
+        "ISFJ",
+        "ESFJ",
+        "ISFP",
+        "ESFP"
+      ]
+    },
+    "INTP": {
+      "twins": [
+        "INTP"
+      ],
+      "perfect": [
+        "ENTJ",
+        "ENFJ"
+      ],
+      "easy": [
+        "INTJ",
+        "ENTP",
+        "INFJ",
+        "INFP",
+        "ENFP"
+      ],
+      "spark": [
+        "ISTJ",
+        "ESTJ",
+        "ISTP",
+        "ESTP"
+      ],
+      "extra-effort": [
+        "ISFJ",
+        "ESFJ",
+        "ISFP",
+        "ESFP"
+      ]
+    },
+    "ENTJ": {
+      "twins": [
+        "ENTJ"
+      ],
+      "perfect": [
+        "INTP",
+        "INFP"
+      ],
+      "easy": [
+        "INTJ",
+        "ENTP",
+        "INFJ",
+        "ENFJ",
+        "ENFP"
+      ],
+      "spark": [
+        "ISTJ",
+        "ESTJ",
+        "ISTP",
+        "ESTP"
+      ],
+      "extra-effort": [
+        "ISFJ",
+        "ESFJ",
+        "ISFP",
+        "ESFP"
+      ]
+    },
+    "ENTP": {
+      "twins": [
+        "ENTP"
+      ],
+      "perfect": [
+        "INTJ",
+        "INFJ"
+      ],
+      "easy": [
+        "INTP",
+        "ENTJ",
+        "INFP",
+        "ENFJ",
+        "ENFP"
+      ],
+      "spark": [
+        "ISTJ",
+        "ESTJ",
+        "ISTP",
+        "ESTP"
+      ],
+      "extra-effort": [
+        "ISFJ",
+        "ESFJ",
+        "ISFP",
+        "ESFP"
+      ]
+    },
+    "INFJ": {
+      "twins": [
+        "INFJ"
+      ],
+      "perfect": [
+        "ENTP",
+        "ENFP"
+      ],
+      "easy": [
+        "INTJ",
+        "INTP",
+        "ENTJ",
+        "INFP",
+        "ENFJ"
+      ],
+      "spark": [
+        "ISFJ",
+        "ESFJ",
+        "ISFP",
+        "ESFP"
+      ],
+      "extra-effort": [
+        "ISTJ",
+        "ESTJ",
+        "ISTP",
+        "ESTP"
+      ]
+    },
+    "INFP": {
+      "twins": [
+        "INFP"
+      ],
+      "perfect": [
+        "ENTJ",
+        "ENFJ"
+      ],
+      "easy": [
+        "INTJ",
+        "INTP",
+        "ENTP",
+        "INFJ",
+        "ENFP"
+      ],
+      "spark": [
+        "ISFJ",
+        "ESFJ",
+        "ISFP",
+        "ESFP"
+      ],
+      "extra-effort": [
+        "ISTJ",
+        "ESTJ",
+        "ISTP",
+        "ESTP"
+      ]
+    },
+    "ENFJ": {
+      "twins": [
+        "ENFJ"
+      ],
+      "perfect": [
+        "INTP",
+        "INFP"
+      ],
+      "easy": [
+        "INTJ",
+        "ENTJ",
+        "ENTP",
+        "INFJ",
+        "ENFP"
+      ],
+      "spark": [
+        "ISFJ",
+        "ESFJ",
+        "ISFP",
+        "ESFP"
+      ],
+      "extra-effort": [
+        "ISTJ",
+        "ESTJ",
+        "ISTP",
+        "ESTP"
+      ]
+    },
+    "ENFP": {
+      "twins": [
+        "ENFP"
+      ],
+      "perfect": [
+        "INTJ",
+        "INFJ"
+      ],
+      "easy": [
+        "INTP",
+        "ENTJ",
+        "ENTP",
+        "INFP",
+        "ENFJ"
+      ],
+      "spark": [
+        "ISFJ",
+        "ESFJ",
+        "ISFP",
+        "ESFP"
+      ],
+      "extra-effort": [
+        "ISTJ",
+        "ESTJ",
+        "ISTP",
+        "ESTP"
+      ]
+    },
+    "ISTJ": {
+      "twins": [
+        "ISTJ"
+      ],
+      "perfect": [
+        "ESTP",
+        "ESFP"
+      ],
+      "easy": [
+        "ISFJ",
+        "ESTJ",
+        "ESFJ",
+        "ISTP",
+        "ISFP"
+      ],
+      "spark": [
+        "INTJ",
+        "INTP",
+        "ENTJ",
+        "ENTP"
+      ],
+      "extra-effort": [
+        "INFJ",
+        "INFP",
+        "ENFJ",
+        "ENFP"
+      ]
+    },
+    "ISFJ": {
+      "twins": [
+        "ISFJ"
+      ],
+      "perfect": [
+        "ESTP",
+        "ESFP"
+      ],
+      "easy": [
+        "ISTJ",
+        "ESTJ",
+        "ESFJ",
+        "ISTP",
+        "ISFP"
+      ],
+      "spark": [
+        "INFJ",
+        "INFP",
+        "ENFJ",
+        "ENFP"
+      ],
+      "extra-effort": [
+        "INTJ",
+        "INTP",
+        "ENTJ",
+        "ENTP"
+      ]
+    },
+    "ESTJ": {
+      "twins": [
+        "ESTJ"
+      ],
+      "perfect": [
+        "ISTP",
+        "ISFP"
+      ],
+      "easy": [
+        "ISTJ",
+        "ISFJ",
+        "ESFJ",
+        "ESTP",
+        "ESFP"
+      ],
+      "spark": [
+        "INTJ",
+        "INTP",
+        "ENTJ",
+        "ENTP"
+      ],
+      "extra-effort": [
+        "INFJ",
+        "INFP",
+        "ENFJ",
+        "ENFP"
+      ]
+    },
+    "ESFJ": {
+      "twins": [
+        "ESFJ"
+      ],
+      "perfect": [
+        "ISTP",
+        "ISFP"
+      ],
+      "easy": [
+        "ISTJ",
+        "ISFJ",
+        "ESTJ",
+        "ESTP",
+        "ESFP"
+      ],
+      "spark": [
+        "INFJ",
+        "INFP",
+        "ENFJ",
+        "ENFP"
+      ],
+      "extra-effort": [
+        "INTJ",
+        "INTP",
+        "ENTJ",
+        "ENTP"
+      ]
+    },
+    "ISTP": {
+      "twins": [
+        "ISTP"
+      ],
+      "perfect": [
+        "ESTJ",
+        "ESFJ"
+      ],
+      "easy": [
+        "ISTJ",
+        "ISFJ",
+        "ISFP",
+        "ESTP",
+        "ESFP"
+      ],
+      "spark": [
+        "INTJ",
+        "INTP",
+        "ENTJ",
+        "ENTP"
+      ],
+      "extra-effort": [
+        "INFJ",
+        "INFP",
+        "ENFJ",
+        "ENFP"
+      ]
+    },
+    "ISFP": {
+      "twins": [
+        "ISFP"
+      ],
+      "perfect": [
+        "ESTJ",
+        "ESFJ"
+      ],
+      "easy": [
+        "ISTJ",
+        "ISFJ",
+        "ISTP",
+        "ESTP",
+        "ESFP"
+      ],
+      "spark": [
+        "INFJ",
+        "INFP",
+        "ENFJ",
+        "ENFP"
+      ],
+      "extra-effort": [
+        "INTJ",
+        "INTP",
+        "ENTJ",
+        "ENTP"
+      ]
+    },
+    "ESTP": {
+      "twins": [
+        "ESTP"
+      ],
+      "perfect": [
+        "ISTJ",
+        "ISFJ"
+      ],
+      "easy": [
+        "ESTJ",
+        "ESFJ",
+        "ISTP",
+        "ISFP",
+        "ESFP"
+      ],
+      "spark": [
+        "INTJ",
+        "INTP",
+        "ENTJ",
+        "ENTP"
+      ],
+      "extra-effort": [
+        "INFJ",
+        "INFP",
+        "ENFJ",
+        "ENFP"
+      ]
+    },
+    "ESFP": {
+      "twins": [
+        "ESFP"
+      ],
+      "perfect": [
+        "ISTJ",
+        "ISFJ"
+      ],
+      "easy": [
+        "ESTJ",
+        "ESFJ",
+        "ISTP",
+        "ISFP",
+        "ESTP"
+      ],
+      "spark": [
+        "INFJ",
+        "INFP",
+        "ENFJ",
+        "ENFP"
+      ],
+      "extra-effort": [
+        "INTJ",
+        "INTP",
+        "ENTJ",
+        "ENTP"
+      ]
+    }
+  }
+}
