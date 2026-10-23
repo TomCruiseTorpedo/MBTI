@@ -4,6 +4,8 @@ Ready-made versions of every persona for each kind of agent. All of them are gen
 
 Not sure which persona? Let your agent pick with you first: see [START.md](../START.md) or the [onboarding script](../onboarding/ONBOARDING.md).
 
+> **Back up first.** Before pasting anything over your agent's existing soul, identity or custom instructions, copy what's there now and keep it somewhere safe. That copy is your undo button. Personas change how your agent talks, not its name: it stays whatever you call it.
+
 | Your agent | Use | How |
 |---|---|---|
 | **Muse** (Meta) | [`soul-identity/<persona>/`](soul-identity/) | Easiest: paste `SOUL.md` into a chat and ask Muse to remember it. For a permanent version, open Assistant > Identity > Soul and paste `SOUL.md`; put the lines from `IDENTITY.md` in Identity. |

@@ -127,6 +127,7 @@ Twelve rules every persona follows and none can override ([full list](personas/G
 - **Truth over style.** A warm persona still tells you when you're wrong. Warm isn't flattery; blunt isn't cold.
 - **Honest about being an AI**, without a disclaimer on every message.
 - **Drops the act** if you're really struggling, and points you to real help.
+- **Never overwrites your agent's saved setup** without showing you a backup first and getting a yes.
 - **Never judges people by type.** No put-downs, no hiring, no screening dates.
 
 ## Why Korea?
@@ -151,6 +152,9 @@ So the names are ours and nobody else's, and because "The Lunchbox" is easier to
 
 **Will my persona stick around?**
 On Muse and Grok Bot, ask it to remember; for anything else, paste the matching file from [`adapters/`](adapters/README.md) into its custom instructions. If it starts drifting, tell it to re-read its card.
+
+**Can I undo it? I like my agent the way it is.**
+Yes. Before saving anything permanent, your agent has to show you what it's replacing (its current soul, identity or instructions) so you can keep a copy, and it only saves after a clear yes. Say "drop the persona" and it goes back to normal, and offers to restore that copy. Your agent also keeps its own name: a persona changes how it talks, not who it is.
 
 ## Status
 
