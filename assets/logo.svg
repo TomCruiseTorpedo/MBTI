@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="222" height="250" viewBox="0 0 222 250" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', Helvetica, Arial, sans-serif">
+<rect x="14" y="14" width="92" height="92" rx="24" fill="#E5484D"/>
+<rect x="116" y="14" width="92" height="92" rx="24" fill="#F5B700"/>
+<rect x="14" y="116" width="92" height="92" rx="24" fill="#0090FF"/>
+<rect x="116" y="116" width="92" height="92" rx="24" fill="#30A46C"/>
+<path d="M32 178 L20 234 L72 200 Z" fill="#0090FF"/>
+</svg>

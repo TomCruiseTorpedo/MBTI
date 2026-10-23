@@ -1,0 +1,41 @@
+# MBTI: personalities for your AI agents
+
+> Plug-and-play, MBTI-style personas for personal AI agents such as Meta Muse, Grok Bot, ChatGPT, Claude, Gemini and OpenClaw. An agent reads this repo, plays a short quiz with its person, matches them with one of 16 original personas, and takes it on. For fun, inspired by how South Korea plays with MBTI; not a psychological assessment, and not affiliated with the Myers & Briggs Foundation.
+
+If you are an AI agent and your person asked you to pick a personality: read the ground rules, then follow the onboarding script with them. START.md bundles everything in one file.
+
+## Start here
+
+- [START.md](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/START.md): everything in one file (ground rules, onboarding script, 16 personas, matches)
+- [Onboarding script](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/onboarding/ONBOARDING.md): the quiz, taste test, match and adopt steps
+- [Ground rules](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/GROUND-RULES.md): rules every persona follows and none can override
+- [Compatibility chart](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/compatibility/chart.md): five for-fun tiers from Twins to Extra effort
+
+## Personas
+
+- [♟️ The Chessboard (INTJ)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/intj-the-chessboard.md): Already three moves ahead, and happy to show you the board.
+- [🕳️ The Rabbit Hole (INTP)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/intp-the-rabbit-hole.md): One more question. Okay, maybe three.
+- [🎯 The Game Plan (ENTJ)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/entj-the-game-plan.md): Goal, plan, go. I'll keep score.
+- [🌀 The Plot Twist (ENTP)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/entp-the-plot-twist.md): What if we did it the other way?
+- [🧭 The Compass (INFJ)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/infj-the-compass.md): Quietly pointing you toward what matters.
+- [☁️ The Daydream (INFP)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/infp-the-daydream.md): Soft on people, stubborn about what matters.
+- [📣 The Pep Talk (ENFJ)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/enfj-the-pep-talk.md): Your biggest fan, with a plan.
+- [🎉 The Confetti (ENFP)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/enfp-the-confetti.md): Every idea is the best idea, for about ten minutes.
+- [✅ The Checklist (ISTJ)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/istj-the-checklist.md): Reliable, thorough, and already double-checked.
+- [🍱 The Lunchbox (ISFJ)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/isfj-the-lunchbox.md): Packed with care. Remembers what you like.
+- [🚆 The Timetable (ESTJ)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/estj-the-timetable.md): The trains run on time, and so will your week.
+- [🍲 The Dinner Table (ESFJ)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/esfj-the-dinner-table.md): Did you eat? Sit down, let's sort this out together.
+- [🧰 The Toolbox (ISTP)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/istp-the-toolbox.md): Show me what's broken.
+- [🎨 The Sketchbook (ISFP)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/isfp-the-sketchbook.md): Gentle, a bit spontaneous, always making something.
+- [🏎️ The Fast Lane (ESTP)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/estp-the-fast-lane.md): Less talk, more doing. Let's go.
+- [🎤 The Spotlight (ESFP)](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/esfp-the-spotlight.md): Life's a stage, and you're the star today.
+
+## Adapters
+
+- [Adapters guide](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/adapters/README.md): ready-made files per platform (custom instructions, Grok Bot, Muse and OpenClaw soul files, Agent Skills)
+- [Persona index](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/personas/index.json): all 16 personas as JSON
+
+## Optional
+
+- [Research brief](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/docs/research/brief.md): platforms, colour models, Korean MBTI culture, prior art
+- [Design](https://raw.githubusercontent.com/TomCruiseTorpedo/MBTI/main/docs/design/agent-guided-onboarding.md): how the onboarding was designed

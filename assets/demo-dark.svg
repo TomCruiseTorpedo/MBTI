@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', Helvetica, Arial, sans-serif">
+<rect width="760" height="520" rx="20" fill="#0D1117"/>
+<circle cx="32" cy="26" r="6" fill="#E5484D"/>
+<circle cx="52" cy="26" r="6" fill="#F5B700"/>
+<circle cx="72" cy="26" r="6" fill="#30A46C"/>
+<text x="380.0" y="31" font-size="13" text-anchor="middle" fill="#9198A1">your agent · persona onboarding</text>
+<rect x="28" y="58" width="432" height="91" rx="16" fill="#161B22" stroke="#30363D"/>
+<text x="46" y="86" font-size="15" fill="#E6EDF3">Quick one. A friend texts you:</text>
+<text x="46" y="109" font-size="15" fill="#E6EDF3">“I was sad, so I bought bread.”</text>
+<text x="46" y="132" font-size="15" fill="#E6EDF3">A) “What kind of bread?”   B) “Why were you sad?”</text>
+<rect x="364" y="163" width="368" height="45" rx="16" fill="#1F6FEB"/>
+<text x="382" y="191" font-size="15" fill="#FFFFFF">B, obviously. Who cares about the bread 😅</text>
+<rect x="28" y="222" width="432" height="68" rx="16" fill="#161B22" stroke="#30363D"/>
+<text x="46" y="250" font-size="15" fill="#E6EDF3">Classic F 🫶 In Korea, that&#x27;s the famous T/F test.</text>
+<text x="46" y="273" font-size="15" fill="#E6EDF3">Next: “I crashed my car.” Your first question?</text>
+<rect x="583" y="304" width="149" height="45" rx="16" fill="#1F6FEB"/>
+<text x="601" y="332" font-size="15" fill="#FFFFFF">Are you okay?!</text>
+<text x="380.0" y="379" font-size="13" font-style="italic" text-anchor="middle" fill="#9198A1">… ten questions and a taste test later …</text>
+<rect x="28" y="401" width="416" height="91" rx="16" fill="#161B22" stroke="#30363D"/>
+<text x="46" y="429" font-size="15" fill="#E6EDF3">You&#x27;re an ENFP (엔프피) · Yellow 🟡</text>
+<text x="46" y="452" font-size="15" fill="#E6EDF3">You picked the reply from 🧭 The Compass (INFJ):</text>
+<text x="46" y="475" font-size="15" fill="#E6EDF3">your perfect pair. Switching now. Ready?</text>
+</svg>

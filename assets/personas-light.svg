@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="952" height="512" viewBox="0 0 952 512" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', Helvetica, Arial, sans-serif">
+<rect width="952" height="512" rx="20" fill="#FFFFFF"/>
+<rect x="24" y="24" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="24" y="38" width="5" height="76" rx="2.5" fill="#0090FF"/>
+<text x="44" y="74" font-size="30">♟️</text>
+<text x="88" y="62" font-size="16" font-weight="600" fill="#1F2328">The Chessboard</text>
+<text x="88" y="85" font-size="13" fill="#59636E">INTJ · 인티제</text>
+<circle cx="93" cy="103" r="4.5" fill="#0090FF"/>
+<text x="104" y="108" font-size="12.5" fill="#59636E">Blue</text>
+<rect x="254" y="24" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="254" y="38" width="5" height="76" rx="2.5" fill="#0090FF"/>
+<text x="274" y="74" font-size="30">🕳️</text>
+<text x="318" y="62" font-size="16" font-weight="600" fill="#1F2328">The Rabbit Hole</text>
+<text x="318" y="85" font-size="13" fill="#59636E">INTP · 인팁</text>
+<circle cx="323" cy="103" r="4.5" fill="#0090FF"/>
+<text x="334" y="108" font-size="12.5" fill="#59636E">Blue</text>
+<rect x="484" y="24" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="484" y="38" width="5" height="76" rx="2.5" fill="#E5484D"/>
+<text x="504" y="74" font-size="30">🎯</text>
+<text x="548" y="62" font-size="16" font-weight="600" fill="#1F2328">The Game Plan</text>
+<text x="548" y="85" font-size="13" fill="#59636E">ENTJ · 엔티제</text>
+<circle cx="553" cy="103" r="4.5" fill="#E5484D"/>
+<text x="564" y="108" font-size="12.5" fill="#59636E">Red</text>
+<rect x="714" y="24" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="714" y="38" width="5" height="76" rx="2.5" fill="#E5484D"/>
+<text x="734" y="74" font-size="30">🌀</text>
+<text x="778" y="62" font-size="16" font-weight="600" fill="#1F2328">The Plot Twist</text>
+<text x="778" y="85" font-size="13" fill="#59636E">ENTP · 엔팁</text>
+<circle cx="783" cy="103" r="4.5" fill="#E5484D"/>
+<text x="794" y="108" font-size="12.5" fill="#59636E">Red</text>
+<rect x="24" y="144" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="24" y="158" width="5" height="76" rx="2.5" fill="#30A46C"/>
+<text x="44" y="194" font-size="30">🧭</text>
+<text x="88" y="182" font-size="16" font-weight="600" fill="#1F2328">The Compass</text>
+<text x="88" y="205" font-size="13" fill="#59636E">INFJ · 인프제</text>
+<circle cx="93" cy="223" r="4.5" fill="#30A46C"/>
+<text x="104" y="228" font-size="12.5" fill="#59636E">Green</text>
+<rect x="254" y="144" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="254" y="158" width="5" height="76" rx="2.5" fill="#30A46C"/>
+<text x="274" y="194" font-size="30">☁️</text>
+<text x="318" y="182" font-size="16" font-weight="600" fill="#1F2328">The Daydream</text>
+<text x="318" y="205" font-size="13" fill="#59636E">INFP · 인프피</text>
+<circle cx="323" cy="223" r="4.5" fill="#30A46C"/>
+<text x="334" y="228" font-size="12.5" fill="#59636E">Green</text>
+<rect x="484" y="144" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="484" y="158" width="5" height="76" rx="2.5" fill="#F5B700"/>
+<text x="504" y="194" font-size="30">📣</text>
+<text x="548" y="182" font-size="16" font-weight="600" fill="#1F2328">The Pep Talk</text>
+<text x="548" y="205" font-size="13" fill="#59636E">ENFJ · 엔프제</text>
+<circle cx="553" cy="223" r="4.5" fill="#F5B700"/>
+<text x="564" y="228" font-size="12.5" fill="#59636E">Yellow</text>
+<rect x="714" y="144" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="714" y="158" width="5" height="76" rx="2.5" fill="#F5B700"/>
+<text x="734" y="194" font-size="30">🎉</text>
+<text x="778" y="182" font-size="16" font-weight="600" fill="#1F2328">The Confetti</text>
+<text x="778" y="205" font-size="13" fill="#59636E">ENFP · 엔프피</text>
+<circle cx="783" cy="223" r="4.5" fill="#F5B700"/>
+<text x="794" y="228" font-size="12.5" fill="#59636E">Yellow</text>
+<rect x="24" y="264" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="24" y="278" width="5" height="76" rx="2.5" fill="#0090FF"/>
+<text x="44" y="314" font-size="30">✅</text>
+<text x="88" y="302" font-size="16" font-weight="600" fill="#1F2328">The Checklist</text>
+<text x="88" y="325" font-size="13" fill="#59636E">ISTJ · 잇티제</text>
+<circle cx="93" cy="343" r="4.5" fill="#0090FF"/>
+<text x="104" y="348" font-size="12.5" fill="#59636E">Blue</text>
+<rect x="254" y="264" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="254" y="278" width="5" height="76" rx="2.5" fill="#30A46C"/>
+<text x="274" y="314" font-size="30">🍱</text>
+<text x="318" y="302" font-size="16" font-weight="600" fill="#1F2328">The Lunchbox</text>
+<text x="318" y="325" font-size="13" fill="#59636E">ISFJ · 잇프제</text>
+<circle cx="323" cy="343" r="4.5" fill="#30A46C"/>
+<text x="334" y="348" font-size="12.5" fill="#59636E">Green</text>
+<rect x="484" y="264" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="484" y="278" width="5" height="76" rx="2.5" fill="#E5484D"/>
+<text x="504" y="314" font-size="30">🚆</text>
+<text x="548" y="302" font-size="16" font-weight="600" fill="#1F2328">The Timetable</text>
+<text x="548" y="325" font-size="13" fill="#59636E">ESTJ · 엣티제</text>
+<circle cx="553" cy="343" r="4.5" fill="#E5484D"/>
+<text x="564" y="348" font-size="12.5" fill="#59636E">Red</text>
+<rect x="714" y="264" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="714" y="278" width="5" height="76" rx="2.5" fill="#F5B700"/>
+<text x="734" y="314" font-size="30">🍲</text>
+<text x="778" y="302" font-size="16" font-weight="600" fill="#1F2328">The Dinner Table</text>
+<text x="778" y="325" font-size="13" fill="#59636E">ESFJ · 엣프제</text>
+<circle cx="783" cy="343" r="4.5" fill="#F5B700"/>
+<text x="794" y="348" font-size="12.5" fill="#59636E">Yellow</text>
+<rect x="24" y="384" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="24" y="398" width="5" height="76" rx="2.5" fill="#0090FF"/>
+<text x="44" y="434" font-size="30">🧰</text>
+<text x="88" y="422" font-size="16" font-weight="600" fill="#1F2328">The Toolbox</text>
+<text x="88" y="445" font-size="13" fill="#59636E">ISTP · 잇팁</text>
+<circle cx="93" cy="463" r="4.5" fill="#0090FF"/>
+<text x="104" y="468" font-size="12.5" fill="#59636E">Blue</text>
+<rect x="254" y="384" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="254" y="398" width="5" height="76" rx="2.5" fill="#30A46C"/>
+<text x="274" y="434" font-size="30">🎨</text>
+<text x="318" y="422" font-size="16" font-weight="600" fill="#1F2328">The Sketchbook</text>
+<text x="318" y="445" font-size="13" fill="#59636E">ISFP · 잇프피</text>
+<circle cx="323" cy="463" r="4.5" fill="#30A46C"/>
+<text x="334" y="468" font-size="12.5" fill="#59636E">Green</text>
+<rect x="484" y="384" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="484" y="398" width="5" height="76" rx="2.5" fill="#E5484D"/>
+<text x="504" y="434" font-size="30">🏎️</text>
+<text x="548" y="422" font-size="16" font-weight="600" fill="#1F2328">The Fast Lane</text>
+<text x="548" y="445" font-size="13" fill="#59636E">ESTP · 엣팁</text>
+<circle cx="553" cy="463" r="4.5" fill="#E5484D"/>
+<text x="564" y="468" font-size="12.5" fill="#59636E">Red</text>
+<rect x="714" y="384" width="214" height="104" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="714" y="398" width="5" height="76" rx="2.5" fill="#F5B700"/>
+<text x="734" y="434" font-size="30">🎤</text>
+<text x="778" y="422" font-size="16" font-weight="600" fill="#1F2328">The Spotlight</text>
+<text x="778" y="445" font-size="13" fill="#59636E">ESFP · 엣프피</text>
+<circle cx="783" cy="463" r="4.5" fill="#F5B700"/>
+<text x="794" y="468" font-size="12.5" fill="#59636E">Yellow</text>
+</svg>

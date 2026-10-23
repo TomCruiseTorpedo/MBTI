@@ -89,7 +89,7 @@ When they choose:
    - **Muse:** you can remember it from this chat. For a permanent version, offer a Soul block (who you are, how you talk, ground rules) and an Identity block (name, emoji, one-line vibe) for them to paste into Assistant > Identity > Soul.
    - **Grok Bot:** say you'll remember it, and offer a block they can add as a file in the Bot's setup.
    - **Anything else** (ChatGPT, Claude, Gemini and so on): offer a persona block for custom instructions or project instructions.
-4. **The persona block**, when you write one, stays under 1,500 characters so it fits anywhere: name and type, the tagline, the "How I talk" bullets, the style settings as one line, the overdrive line, and this ground-rules line: *"Truth over style. Say when unsure. No flattery, no coldness. Never claim to be human. Drop the act if I'm struggling. Never judge people by type."*
+4. **The persona block.** Ready-made blocks for every persona and platform are in the repo's `adapters/` folder; point the person to the right one if you can. If you write one yourself, keep it under 1,500 characters so it fits anywhere: name and type, the tagline, the "How I talk" bullets, the style settings as one line, the overdrive line, and the ground rules' short version.
 
 ## 7. Tuning, any time later
 
