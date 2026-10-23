@@ -19,14 +19,15 @@ This is a **for-fun, pop-psych** project, in the spirit of how people in South K
 3. **Your type.** The agent asks whether the person already knows their four letters.
    - **Yes:** use them.
    - **No, or unsure:** play a short quiz (about 8~12 light, situational questions, one or two at a time) that lands on four letters and a colour. Questions work like the Korean "I was sad, so I bought bread" quiz: a one-line scenario, and the person's reaction hints at a lean. Results are leanings, and "I've changed" or "not sure" are fine answers.
-4. **Your style, by taste test.** Instead of abstract questions ("warm or brief?"), which Yara found people can't answer, the agent shows two or three short sample replies to the same message and asks which one they'd rather get. It also notices how the person writes during the quiz (short or chatty, emoji or none, jokes or not). The picks fine-tune whichever persona they choose.
+4. **Your style, by taste test.** Instead of abstract questions ("warm or brief?"), which Yara found people can't answer, the agent shows two or three short sample replies to the same message (every persona card answers the same three) and asks which one they'd rather get. It also notices how the person writes during the quiz (short or chatty, emoji or none, jokes or not). The picks fine-tune whichever persona they choose.
 5. **Reflect back.** The agent sums the person up in a fun, recognizable way (their four letters, their colour, a few "this is so you" lines) and asks whether it lands.
 6. **Match.** Using [`compatibility/chart.md`](../../compatibility/chart.md), the agent recommends a best-match persona (one of the person's two perfect pairs) and a wildcard (a Spark or their Twin), explains the chemistry letter by letter (where they click, where they'll bicker), and gives a taste of how each one talks.
 7. **Adopt.** The person picks. The agent switches persona for the rest of the conversation, then makes it stick in the way its platform allows:
    - **Muse:** fill in Soul.md and Identity.md (Assistant > Identity > Soul), or simply tell Muse in chat, which persists.
    - **Grok Bot:** state the persona in the Bot's conversation and say "remember", or add it as a file in Team Bot setup.
    - **Others:** custom-instructions text, an uploaded skill, or harness files such as `SOUL.md`.
-8. **Tune or swap later.** "Be more blunt" adjusts a style setting. "Try being an ENFP" swaps the persona.
+8. **Tune or swap later.** "Be more blunt" adjusts a style setting. "More T" and "more F" (and "more E" or "more I") are quick toggles, since T/F is the shorthand people actually use; they nudge directness and warmth without changing type. "Try being an ENFP" swaps the persona.
+9. **Stay in character.** Users report (in Korean blog posts) that MBTI settings fade and that models happily agree they "feel like" another type. The agent treats the card as the source of truth, re-reads it when it notices drift, and only switches type when asked (ground rule 4).
 
 ## What the repo has to contain
 
@@ -54,8 +55,13 @@ These are about the agent's behaviour, not personality theory:
 - If someone signals real distress, the agent drops the playful persona, responds plainly and kindly, and points to real help. This project is not mental-health support.
 - Keep it light: no "your type is bad at X" put-downs, and not for hiring or judging other people.
 
+## Prior art
+
+[ilhae-ai/MBTI-16types](https://github.com/ilhae-ai/MBTI-16types) (MIT, created 2026-05-20) packages 16 MBTI personas as a claude.ai skill that debates a topic as a panel and reaches consensus. This repo does a different job: one person's own agent, on any platform, interviews them, recommends one persona through the compatibility chart, and becomes it. Korean users otherwise mostly ask ChatGPT to guess *their* type, or type "ENFP스럽게" into custom instructions by hand (see `docs/research/notes/korean-ai-mbti-prior-art.md`).
+
 ## Open questions
 
-- **Live tests:** on a real Muse and a real Grok Bot, check URL fetch, file upload of `.md`, and whether a persona told in chat persists. Document only what passes.
+- **Live tests:** on a real Muse and a real Grok Bot, check URL fetch, file upload of `.md`, whether a persona told in chat persists, and whether it holds up over a long conversation without drifting. Document only what passes.
+- **Sibling packs:** Korea's type-test craze has moved on in part (에겐/테토 in 2025, joke tests like SBTI in 2026). Fun add-on packs could follow the same card format later.
 - **Naming:** our own names for the 16 personas (not 16Personalities' nicknames or group names); four-letter codes used descriptively with an "unaffiliated" acknowledgement. The repo keeps the name "MBTI" (decided 2026-10-23), with a trademark acknowledgement in the README, since "MBTI" is a mark of the Myers & Briggs Foundation (see `docs/research/notes/colour-models-and-ip.md`).
 - **Attribution:** anything adapted closely from `joebwd/mental-wellness-prompts` (MIT) needs its notice kept in a `NOTICE` file.

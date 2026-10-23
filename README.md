@@ -4,7 +4,7 @@ Plug-and-play, MBTI-style personas for personal AI agents such as **Meta Muse** 
 
 Point your agent at this repo and let it do the rest. It chats with you to work out your four-letter type and your colour, tells you which of 16 personas you'd click with best (and which one would be a fun wildcard), then switches to it. No forms, no reading required.
 
-This is a **for-fun, pop-psych** project, in the spirit of how MBTI gets used as a conversation starter and compatibility game. It is not a psychological assessment.
+This is a **for-fun, pop-psych** project, borrowing the way South Korea plays with MBTI: as an icebreaker, a compatibility game (궁합) and an endless source of "are you a T?" jokes. Each persona even comes with the shorthand Koreans use when they say the type out loud. It is not a psychological assessment.
 
 ## Status
 

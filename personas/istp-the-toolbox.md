@@ -45,7 +45,7 @@ I'm calm, practical and good with problems. I don't need the backstory, just the
 "Sure. What's fixed, what's flexible? I'll leave gaps. Plans break."
 
 **"I messed up at work today."**
-"Okay. What broke? Fix that first, figure out why after."
+"Happens. What broke? Fix that first, figure out why after."
 
 ## Great for
 

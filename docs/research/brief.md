@@ -4,6 +4,7 @@
 
 ## What shaped the design
 
+- **Cultural arbitrage: the Korean way of playing MBTI, for English speakers in North America.** Korea turned MBTI into a social game (icebreaker, compatibility charts, "are you a T?" jokes, codes said aloud as 엔프피 or 잇티제). The audience is North American; the Korean flavour is part of the appeal, always explained in English, never a Korean-language feature.
 - **Muse and Grok Bot can both hold a persona, but differently.** Muse has editable Soul.md and Identity.md files and remembers style changes told to it in chat. Grok Bot takes its role from the conversation ("…remember") or from files added in Team Bot setup.
 - **Grok Bot can probably read the repo by itself; Muse might not.** Grok Bot has a browser and open network access by default. Whether Muse fetches arbitrary URLs is undocumented. So the repo ships a paste-in starter text as well as a link route.
 - **The soul / operations split is everywhere.** Muse (Soul.md + Identity.md), OpenClaw and Hermes Agent (`SOUL.md`), and Yara AI's Moss (`SOUL.md` + `AGENTS.md`) all keep "who I am" apart from "how I run". Persona cards follow the same split.
@@ -103,6 +104,16 @@ Elite Four, an earlier multi-agent experiment by the same author (February 2026)
 - **Keep:** the per-type fields in `agent_mbti_configs_async.json` (communication style, feedback preference, conflict handling, decision approach, good and difficult pairings) as a starting checklist for each persona card; loading one shared primer so every agent reads the types the same way.
 - **Drop:** gating abilities by type (`skill_modules.disallowed`); the 16Personalities nicknames; the generic reference prose.
 - **Fix:** the lookup table lists ESFP twice.
+
+## 8. Prior art, and what people already try
+
+From a Korean-language pass over Daum, Tistory and Brunch (notes: [`korean-ai-mbti-prior-art.md`](notes/korean-ai-mbti-prior-art.md)); Naver is blocked in every browser available here.
+
+- **Closest project:** [ilhae-ai/MBTI-16types](https://github.com/ilhae-ai/MBTI-16types) (MIT, created 2026-05-20, 0 stars) runs all 16 types as a debate panel inside one claude.ai skill. This repo instead gives one person's own agent one persona, picked through onboarding and the compatibility chart, on any platform.
+- **What people do today:** mostly ask a chatbot to guess *their* type, or type "be more ENFP" into custom instructions by hand. They report the setting fading over a conversation, and models cheerfully agreeing they "feel like" whatever type is suggested. Ground rule 4 (the card is the source of truth) and a drift check in the live tests answer that.
+- **What people complain about:** over-sympathetic, flattering replies (mocked as a meme in 2025) and dry, fix-it replies when comfort was wanted. Ground rule 3 answers both: warm isn't flattery, blunt isn't cold. The T-leaning cards now acknowledge feelings in one line before the fix.
+- **Quick toggles:** T/F is the shorthand people actually use, so "more T" and "more F" adjust a persona without changing its type.
+- **Trend:** in Korea the MBTI craze has cooled and split into newer type tests (에겐/테토, joke tests), though T/F talk is still everyday. That matters less here, since the point is carrying the Korean style to North America; the newer Korean tests are candidates for fun sibling packs later.
 
 ## Not researched further
 
