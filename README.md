@@ -10,6 +10,7 @@ This is a **for-fun, pop-psych** project, in the spirit of how MBTI gets used as
 
 Early design. Nothing here is ready to load into an agent yet.
 
+- 16 persona cards (first draft) and the ground rules every persona follows: [personas/](personas/README.md)
 - Compatibility chart (done, for fun): [compatibility/chart.md](compatibility/chart.md)
 - Design: [docs/design/agent-guided-onboarding.md](docs/design/agent-guided-onboarding.md)
 - Research brief: [docs/research/brief.md](docs/research/brief.md), with raw notes in [docs/research/notes/](docs/research/notes/)

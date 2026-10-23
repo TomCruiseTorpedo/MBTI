@@ -66,9 +66,9 @@ The four letters stay the main label, because that is what people already know a
 
 ## 5. Compatibility
 
-The tone to aim for is how South Korea plays with MBTI (notes: [`korean-mbti-culture.md`](notes/korean-mbti-culture.md)): an icebreaker since a 2020 TV episode, on most young people's dating profiles, in idol introductions, and in memes such as "너 T야?" ("are you a T?") and the "I was sad, so I bought bread" quiz, where an F asks why you were sad and a T asks what bread.
+The tone to aim for is how South Korea plays with MBTI (notes: [`korean-mbti-culture.md`](notes/korean-mbti-culture.md), corrected and extended by the Namu Wiki pass in [`namu-wiki-korean.md`](notes/namu-wiki-korean.md)). After a decade of school career tests, it boomed in 2020, with TV (*Hangout with Yoo*) amplifying the craze rather than starting it, and it replaced blood type as the go-to personality small talk. In a 2021 survey, 80% of Koreans aged 18~29 knew what it was. Codes are said aloud as shorthand (엔프피, 잇티제, with TP read 팁), and the memes include "너 T야?" ("are you a T?") and the "I was sad, so I bought bread" quiz, where an F asks why you were sad and a T asks what bread. Every persona card carries its Korean shorthand, and a few borrow generic slang (노잼, 개복치, 오지랖, 핵인싸) to tease themselves.
 
-**The chart.** Korean compatibility (궁합) charts have no known source and contradict each other, and even a Korean test site admits its grades are just the author's rules. So ours says so up front: [`compatibility/chart.md`](../../compatibility/chart.md), generated from five rules in `scripts/build_compatibility.py`:
+**The chart.** Korean compatibility (궁합) charts come in at least two families that contradict each other. Namu Wiki traces one to socionics (사회인격학), which calls complete opposites such as ENTP–ISFJ the ideal "dual" pair; the widely shared blog charts instead crown pairs like ENFP–INFJ as 천생연분 (soulmates), with no stated basis. Even a Korean test site admits its grades are just the author's rules. So ours says so up front: [`compatibility/chart.md`](../../compatibility/chart.md), generated from five rules in `scripts/build_compatibility.py`:
 
 | Tier | Rule | Per type |
 |---|---|---|
@@ -78,7 +78,7 @@ The tone to aim for is how South Korea plays with MBTI (notes: [`korean-mbti-cul
 | ⚡ Spark | Different S/N, same T/F | 4 |
 | 🧗 Extra effort | Everything else | 4 |
 
-The perfect-pair rule reproduces all eleven best-match pairs the Korean charts most often share (ENFP–INFJ, ENFP–INTJ, INFJ–ENTP, INFP–ENFJ, ENTJ–INFP, ESTJ–ISFP, ESTJ–ISTP, and ISTJ/ISFJ with ESFP/ESTP). The pairs those charts most often call worst, S types against NF types, mostly land in Extra effort.
+The perfect-pair rule reproduces all eleven best-match pairs the Korean charts most often share (ENFP–INFJ, ENFP–INTJ, INFJ–ENTP, INFP–ENFJ, ENTJ–INFP, ESTJ–ISFP, ESTJ–ISTP, and ISTJ/ISFJ with ESFP/ESTP). The pairs those charts most often call worst, S types against NF types, mostly land in Extra effort. So do all five socionics "dual" pairs and all five socionics "conflict" pairs listed on Namu Wiki, which is one more reason the chart tells agents never to present Extra effort as bad: by socionics' rules, total opposites are the ideal match.
 
 **How it's used and framed:**
 
@@ -92,7 +92,7 @@ The perfect-pair rule reproduces all eleven best-match pairs the Korean charts m
 ## 6. Names and trademarks
 
 - "MBTI", "Myers-Briggs" and "Myers-Briggs Type Indicator" are marks of The Myers & Briggs Foundation, Inc. The README carries an acknowledgement; the project uses the four-letter codes descriptively and never reproduces the assessment.
-- The Elite Four nicknames (Architect, Logician…) are 16Personalities' published names. They don't appear to be trademarked, but 16Personalities claims copyright on its descriptions. All 16 persona names and descriptions here are original, and its group names (Analysts, Diplomats, Sentinels, Explorers) are avoided too.
+- The Elite Four nicknames (Architect, Logician…) are 16Personalities' published names. They don't appear to be trademarked, but 16Personalities claims copyright on its descriptions. All 16 persona names and descriptions here are original, and its group names (Analysts, Diplomats, Sentinels, Explorers) are avoided too. The Korean side has its own sets to avoid: 16Personalities' Korean names (전략가, 논리술사…), the Korean "-형" nicknames (과학자형, 스파크형…) and the MBTI 일상툰 animal characters. The spoken shorthand (인티제, 엔프피…) and general slang are generic.
 - Vendor colour names ("Fiery Red", "Sunshine Yellow", "Commanding Red") are avoided; Red, Yellow, Green and Blue are generic.
 - Text adapted closely from `joebwd/mental-wellness-prompts` keeps its MIT notice in a `NOTICE` file.
 

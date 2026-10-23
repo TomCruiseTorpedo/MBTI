@@ -1,6 +1,6 @@
 # Design draft: agent-guided onboarding
 
-> **Status:** draft, 2026-10-23. Built on the [research brief](../research/brief.md): platform research, the colour and trademark notes, Korean MBTI culture, and lessons from `joebwd/mental-wellness-prompts`. The compatibility chart is done; persona names and cards are next.
+> **Status:** draft, 2026-10-23. Built on the [research brief](../research/brief.md): platform research, the colour and trademark notes, Korean MBTI culture, and lessons from `joebwd/mental-wellness-prompts`. The compatibility chart, ground rules and first-draft persona cards are done; the onboarding script and starter text are next.
 
 ## The idea in one paragraph
 
@@ -35,8 +35,8 @@ This is a **for-fun, pop-psych** project, in the spirit of how people in South K
 | Entry files | `AGENTS.md`, `llms.txt` and a README section that all point the agent to the onboarding script. Cheap to ship; no agent is confirmed to honour them yet | Agent |
 | Starter text | One self-contained file with the onboarding script, a compact persona list and the compatibility chart, small enough to paste. The fallback when the agent can't browse | Human pastes, agent reads |
 | Onboarding script | The flow above, written as instructions to the agent, with the quiz, the sample replies and how to score them | Agent |
-| 16 persona cards | Per type, split like Muse, OpenClaw and Yara's Moss: a **soul** (who I am and how I show up: vibe, voice, sample lines, strengths, pet peeves, colour; under about 350 words) and an **identity** (name, emoji, one-line vibe) | Both |
-| Ground rules | One shared operations file (the rules below), kept separate from the personas so no persona can rewrite it | Agent |
+| 16 persona cards | First draft done: [`personas/`](../../personas/README.md). Per type, split like Muse, OpenClaw and Yara's Moss: identity and style settings in the frontmatter, a **soul** under 350 words in the body, with replies to the same three sample messages for the taste test. `scripts/build_personas_index.py` checks every card and writes `personas/index.json` | Both |
+| Ground rules | Done: [`personas/GROUND-RULES.md`](../../personas/GROUND-RULES.md), one shared operations file kept separate from the personas so no persona can rewrite it | Agent |
 | Style settings | Warmth, formality, directness, humour, energy, length, emoji, check-ins: what each changes and the defaults per persona | Agent |
 | Compatibility chart | Done: [`compatibility/chart.md`](../../compatibility/chart.md) and `chart.json`, generated from five author-made rules in `scripts/build_compatibility.py` (Twins, Perfect pair, Easy chemistry, Spark, Extra effort; no "worst match") | Both |
 | Colour layer | Red / Yellow / Green / Blue in the sense Vinh Giang popularized (from *Surrounded by Idiots*): outgoing + task, outgoing + people, reserved + people, reserved + task. Derived from the E/I and T/F letters in an editable mapping file, with our own descriptions | Both |

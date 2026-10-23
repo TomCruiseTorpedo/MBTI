@@ -1,10 +1,10 @@
 # Research notes: how MBTI is used in South Korea
 
-> **Status:** raw desk research from a delegated research agent, 2026-10-23. Pass 1 mixed Korean and English queries; pass 2 was Korean-only. (KR) marks a Korean-language source. Namu Wiki returned 403 and Naver wasn't reachable, so neither is cited. Not yet independently verified.
+> **Status:** raw desk research from a delegated research agent, 2026-10-23. Pass 1 mixed Korean and English queries; pass 2 was Korean-only. (KR) marks a Korean-language source. This pass couldn't reach Namu Wiki or Naver; a later pass read Namu Wiki through a real browser, see [`namu-wiki-korean.md`](namu-wiki-korean.md), which corrects the origin claim below. Not yet independently verified.
 
 ## 1. Social use, 2020~2026
 
-- **Origin of the boom:** a 2020-06-13 episode of *Hangout with Yoo* (놀면 뭐하니?) where three celebrities tested their types; pandemic-era online life made it an icebreaker (HIGH on the episode, MEDIUM on cause). https://www.koreajoongangdaily.com/korea/journalism-internship-mbti-profiling-offers-insights-an-icebreaker-and-maybe-even-love/10110572
+- **Origin of the boom (corrected by the [Namu Wiki pass](namu-wiki-korean.md)):** this pass credited a 2020-06-13 episode of *Hangout with Yoo* (놀면 뭐하니?) where three celebrities tested their types (HIGH that the episode exists; https://www.koreajoongangdaily.com/korea/journalism-internship-mbti-profiling-offers-insights-an-icebreaker-and-maybe-even-love/10110572). The Namu Wiki pass found an MBTI craze already reported on 2020-06-08, built on a decade of school career tests, so the episode amplified the boom rather than starting it.
 - **Reach:** Hankook Research (Dec 2021): over half of Koreans had taken a test; about 9 in 10 of those aged 19~28 (MEDIUM). https://www.koreatimes.co.kr/www/nation/2022/09/744_335673.html
 - **The free test that lit it:** the free 16Personalities test is credited with the craze; the Korea MBTI Institute says it isn't real MBTI (KR, HIGH). https://www.segye.com/newsView/20220516517790
 - **Dating:** about a third of dating-app profiles list a type (CNN, 2022-07-22; MEDIUM-HIGH, https://kvia.com/?p=1012789). One app, WIPPY, reported 92% of its users in their 20s list a type, ENFP most common at about 11% (KR, MEDIUM, https://v.daum.net/v/6XCl37at3Y). Thingsflow's "MBTI Blind Date" game had 1.2M downloads in week one (MEDIUM-HIGH, CNN link).
